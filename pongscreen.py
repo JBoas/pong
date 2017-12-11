@@ -8,10 +8,10 @@ screenwidth = 350
 	
 def mainfunc():
 	pygame.init()
-	global DISPLAYSURF
+	global DISPLAY
 	
 	fpsclock = pygame.time.Clock()
-	DISPLAYSURF = pygame.display.set_mode((screenwidth,screenheight))
+	DISPLAY = pygame.display.set_mode((screenwidth,screenheight))
 	pygame.display.set_caption("Pong!")
 	
 	while True:
